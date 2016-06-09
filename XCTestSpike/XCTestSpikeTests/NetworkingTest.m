@@ -1,5 +1,5 @@
 //
-//  NetworkingTest.m
+//  NetworkingTests.m
 //  XCTestSpike
 //
 //  Created by Weien Wang on 6/9/16.
@@ -9,11 +9,11 @@
 #import <XCTest/XCTest.h>
 #import "WWWebService.h"
 
-@interface NetworkingTest : XCTestCase
+@interface NetworkingTests : XCTestCase
 
 @end
 
-@implementation NetworkingTest
+@implementation NetworkingTests
 
 - (void) testHTTPCallReturnsNotNil {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Wait for NSURLSession task"];
