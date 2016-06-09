@@ -10,4 +10,6 @@
 
 @interface WWWebService : NSObject
 
++ (instancetype)sharedInstance;
+
 @end
