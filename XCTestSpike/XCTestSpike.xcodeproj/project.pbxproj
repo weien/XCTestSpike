@@ -15,6 +15,7 @@
 		642F61531D08E01900179EE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 642F61511D08E01900179EE4 /* LaunchScreen.storyboard */; };
 		642F615E1D08E01900179EE4 /* XCTestSpikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 642F615D1D08E01900179EE4 /* XCTestSpikeTests.m */; };
 		642F61691D08E01900179EE4 /* XCTestSpikeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 642F61681D08E01900179EE4 /* XCTestSpikeUITests.m */; };
+		642F61781D09CD2700179EE4 /* WWWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 642F61771D09CD2700179EE4 /* WWWebService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		642F61641D08E01900179EE4 /* XCTestSpikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCTestSpikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		642F61681D08E01900179EE4 /* XCTestSpikeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCTestSpikeUITests.m; sourceTree = "<group>"; };
 		642F616A1D08E01900179EE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		642F61761D09CD2700179EE4 /* WWWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWWebService.h; sourceTree = "<group>"; };
+		642F61771D09CD2700179EE4 /* WWWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWWebService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				642F61471D08E01900179EE4 /* AppDelegate.m */,
 				642F61491D08E01900179EE4 /* ViewController.h */,
 				642F614A1D08E01900179EE4 /* ViewController.m */,
+				642F61761D09CD2700179EE4 /* WWWebService.h */,
+				642F61771D09CD2700179EE4 /* WWWebService.m */,
 				642F614C1D08E01900179EE4 /* Main.storyboard */,
 				642F614F1D08E01900179EE4 /* Assets.xcassets */,
 				642F61511D08E01900179EE4 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				642F614B1D08E01900179EE4 /* ViewController.m in Sources */,
 				642F61481D08E01900179EE4 /* AppDelegate.m in Sources */,
+				642F61781D09CD2700179EE4 /* WWWebService.m in Sources */,
 				642F61451D08E01900179EE4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
