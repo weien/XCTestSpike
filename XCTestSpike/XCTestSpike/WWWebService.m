@@ -23,7 +23,7 @@
     return _sharedObject;
 }
 
-- (void) questionTitlesIncludingSearchTerm:(NSString*)searchTerm {
+- (void) questionTitlesIncludingSearchTerm:(NSString*)searchTerm withCallback:(void (^)(NSArray *))callback {
     NSString* fullURLString = [@"https://api.stackexchange.com/2.2/search?order=desc&sort=activity&site=stackoverflow&intitle=" stringByAppendingString:searchTerm];
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:fullURLString]];
     NSURLSession *session = [NSURLSession sharedSession];
@@ -33,12 +33,14 @@
                                                             NSError * _Nullable error) {
                                             if (error) {
                                                 NSLog(@"Data task error is %@", error);
+                                                callback(nil);
                                             }
                                             else {
                                                 NSDictionary *resultObject = [NSJSONSerialization JSONObjectWithData:data options:0 error:&error];
                                                 NSArray *resultItems = resultObject[@"items"];
                                                 NSArray *resultTitles = [resultItems valueForKey:@"title"];
                                                 NSLog(@"Result Titles are %@", resultTitles);
+                                                callback(resultTitles);
                                             }
                                         }];
     [task resume];

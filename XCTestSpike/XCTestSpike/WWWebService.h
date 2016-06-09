@@ -11,5 +11,6 @@
 @interface WWWebService : NSObject
 
 + (instancetype)sharedInstance;
-- (void) questionTitlesIncludingSearchTerm:(NSString*)searchTerm;
+- (void) questionTitlesIncludingSearchTerm:(NSString*)searchTerm
+                              withCallback:(void (^)(NSArray *))callback;
 @end

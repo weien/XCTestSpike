@@ -18,7 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [[WWWebService sharedInstance] questionTitlesIncludingSearchTerm:@"Pizza"];    
+    [[WWWebService sharedInstance] questionTitlesIncludingSearchTerm:@"pizza" withCallback:^(NSArray *titles) {
+        
+    }];
 }
 
 @end
