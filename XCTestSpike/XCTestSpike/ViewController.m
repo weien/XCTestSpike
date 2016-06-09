@@ -10,7 +10,6 @@
 #import "WWWebService.h"
 
 @interface ViewController ()
-
 @end
 
 @implementation ViewController
@@ -18,8 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.storedTitles = [NSArray array];
+    
     [[WWWebService sharedInstance] questionTitlesIncludingSearchTerm:@"pizza" withCallback:^(NSArray *titles) {
-        
+        self.storedTitles = titles;
     }];
 }
 

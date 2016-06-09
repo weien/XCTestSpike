@@ -18,6 +18,7 @@
 		642F61781D09CD2700179EE4 /* WWWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 642F61771D09CD2700179EE4 /* WWWebService.m */; };
 		642F617A1D09E41A00179EE4 /* SingletonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 642F61791D09E41A00179EE4 /* SingletonTests.m */; };
 		642F617C1D0A115800179EE4 /* NetworkingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 642F617B1D0A115800179EE4 /* NetworkingTest.m */; };
+		642F617E1D0A1DC300179EE4 /* ViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 642F617D1D0A1DC300179EE4 /* ViewControllerTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		642F61771D09CD2700179EE4 /* WWWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWWebService.m; sourceTree = "<group>"; };
 		642F61791D09E41A00179EE4 /* SingletonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonTests.m; sourceTree = "<group>"; };
 		642F617B1D0A115800179EE4 /* NetworkingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkingTest.m; sourceTree = "<group>"; };
+		642F617D1D0A1DC300179EE4 /* ViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 		642F615C1D08E01900179EE4 /* XCTestSpikeTests */ = {
 			isa = PBXGroup;
 			children = (
+				642F617D1D0A1DC300179EE4 /* ViewControllerTests.m */,
 				642F617B1D0A115800179EE4 /* NetworkingTest.m */,
 				642F61791D09E41A00179EE4 /* SingletonTests.m */,
 				642F615D1D08E01900179EE4 /* XCTestSpikeTests.m */,
@@ -294,6 +297,7 @@
 			files = (
 				642F615E1D08E01900179EE4 /* XCTestSpikeTests.m in Sources */,
 				642F617A1D09E41A00179EE4 /* SingletonTests.m in Sources */,
+				642F617E1D0A1DC300179EE4 /* ViewControllerTests.m in Sources */,
 				642F617C1D0A115800179EE4 /* NetworkingTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
