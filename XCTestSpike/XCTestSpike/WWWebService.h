@@ -11,5 +11,5 @@
 @interface WWWebService : NSObject
 
 + (instancetype)sharedInstance;
-
+- (void) questionTitlesIncludingSearchTerm:(NSString*)searchTerm;
 @end
